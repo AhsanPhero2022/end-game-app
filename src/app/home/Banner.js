@@ -1,9 +1,9 @@
-import React from "react";
 import { AimOutlined } from "@ant-design/icons";
 import { BsGlobe, BsPencil, BsBoxArrowUpRight } from "react-icons/bs";
 import { GrDocumentText } from "react-icons/gr";
 import Image from "next/image";
 import Logo from "../../../public/assets/translator.jpg";
+
 const Banner = () => {
   return (
     <div className="mb-8">
@@ -12,7 +12,7 @@ const Banner = () => {
           <Image src={Logo} alt="Image" />
         </div>
       </div>
-      <section className="translator">
+      <section className="translator ">
         <h1 className="text-3xl text-center font-bold text-green-500 mt-5">
           Translate your Language
         </h1>
@@ -54,8 +54,7 @@ const Banner = () => {
           </div>
         </div>
       </section>
-
-      <div className="grid lg:grid-cols-3 gap-4  my-10 w-1/2">
+      <div className="grid lg:grid-cols-3 gap-4 mx-auto lg:mx-0 my-10 w-1/2">
         <div className="border shadow-xl  border-rgb(17 24 39) px-5 text-center py-8 rounded-lg">
           <div className="flex items-center justify-center gap-2">
             <div>
@@ -99,25 +98,25 @@ const Banner = () => {
       </div>
       {/*  */}
       <div className="my-10">
-        <h1 className="text-2xl font-bold text-center mt-10">
+        <h1 className="text-2xl font-bold text-center mx-auto lg:mx-0   mt-10">
           Translate Even Faster With ONlineTranslator Apps
         </h1>
         <div className="row-wrapper gap-5 justify-center mt-8">
-          <div>
+          <div className="mx-auto lg:mx-0   ">
             <h1 className="text-lg font-semibold">
               Online translate For Windows
             </h1>
             <button className="btn btn-success mt-10">Download For Free</button>
           </div>
           <div className="divider divider-horizontal"></div>
-          <div>
+          <div className="mx-auto lg:mx-0   ">
             <h1 className="text-lg font-semibold">
               Online translate For Ios and Android
             </h1>
             <button className="btn btn-outline mt-10">Download For Free</button>
           </div>
           <div className="divider divider-horizontal text-black"></div>
-          <div>
+          <div className="mx-auto lg:mx-0   ">
             <h1 className="text-lg font-semibold">
               Online translate For Chrome
             </h1>
